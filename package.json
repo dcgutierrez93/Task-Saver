@@ -1,0 +1,25 @@
+{
+  "name": "task-saver",
+  "version": "1.0.0",
+  "description": "Task Saver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcgutierrez93/Task-Saver.git"
+  },
+  "author": "David Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcgutierrez93/Task-Saver/issues"
+  },
+  "homepage": "https://github.com/dcgutierrez93/Task-Saver#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  }
+}
